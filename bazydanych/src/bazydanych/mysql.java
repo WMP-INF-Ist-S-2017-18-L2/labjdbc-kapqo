@@ -21,7 +21,7 @@ public class mysql {
 
 	try {
 		connection = DriverManager
-		.getConnection("jdbc:mysql://localhost:3306/baza_produktow","root", "admin");
+		.getConnection("jdbc:mysql://localhost:3306/BAZA_PRODUKTOW","root", "admin");
 
 	} catch (SQLException e) {
 		System.out.println("Connection Failed! Check output console");
