@@ -29,7 +29,7 @@ public class postgresql  {
 		try {
 
 			connection = DriverManager.getConnection(
-					"jdbc:postgresql://127.0.0.1:50267/BAZA_PRODUKTOW", "admin",
+					"jdbc:postgresql://127.0.0.1:52275/BAZA_PRODUKTOW", "admin",
 					"123456");
 
 		} catch (SQLException e) {
